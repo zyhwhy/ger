@@ -1,0 +1,28 @@
+/* pages/find/find.wxss */
+.find{
+  width:100%;
+  height:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: row;
+  
+}
+.progress-box{
+  width:100%;
+  padding:0 20px;
+  box-sizing:border-box;
+}
+#myVideo{
+  width: 100%;
+}
+.my-swiper{
+  height:220px;
+  width:100%;
+}
+
+.my-swiperitem , .my-img{
+  height:220px;
+  width:100%;
+}
+

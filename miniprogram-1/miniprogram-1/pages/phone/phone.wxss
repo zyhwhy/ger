@@ -1,0 +1,21 @@
+/* pages/phone/phone.wxss */
+.class_tophone{
+  width: 100vw;
+  height: 40px;
+  background-color: orange;
+  margin-top: 20px;
+}
+
+.my-box{
+  width: 100vw;
+  height: 20vh;
+  border-bottom: 1px solid green;
+}
+
+.box-first{
+  width: 90vw;
+  height: 20px;
+  margin-top: 5px;
+  border: 1px solid gray;
+  margin-left: 5vw;
+}

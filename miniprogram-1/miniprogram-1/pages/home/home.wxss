@@ -1,0 +1,16 @@
+/* pages/home/home.wxss */
+
+.home{
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+image{
+    width: 100vw;
+}
+.btn{
+    width: 200px;
+    height: 30px;
+    background-color: aqua;
+    font-size: 15px;
+}

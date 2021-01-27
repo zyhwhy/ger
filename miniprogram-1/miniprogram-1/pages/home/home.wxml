@@ -1,0 +1,31 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+  <view>
+      <text>Home - home - Home</text>
+  </view>
+  <view>
+      <view>
+          {{  msg }}
+      </view>
+      <view>
+          {{  word }}
+      </view>
+      <view>count --- {{ count }}</view>
+      <button type="primary" size="small" bindtap="countAdd" >count++</button>
+      <view>
+        {{flag?'小程序很简单':'学好小程序，找个好工作'}}
+      </view>
+  </view>
+  <view wx:if="{{isshow}}">
+  <image src="../../images/daka1.jpg" ></image>
+  </view>
+
+  <button type="primary" size="small" class="btn" bindtap="shows">隐藏/显示</button>
+  <!-- <view wx:for="{{ [1,2,3,4,5,6,7,8,9] }}" wx:for-item="row" class="row">
+        <text wx:for="{{ [1,2,3,4,5,6,7,8,9] }}" wx:if="{{ col <= row }}" wx:for-item="col" class="col">
+            <text>{{ col }}*{{ row }} = {{ col*row }}  </text>
+
+        </text>
+    </view>  -->
+ 
+</view>

@@ -1,0 +1,9 @@
+<!--pages/updataphone/updataphone.wxml-->
+<text>pages/updataphone/updataphone.wxml</text>
+<view class="my-box">
+    <view>
+        <input type="text" model:value="{{name}}" placeholder="姓名" class="input-css" />
+        <input type="tel" model:value="{{phone}}"   placeholder="手机号码" class="input-css" />
+        <button class="my-btn" bindtap="updateContact" >修改联系人</button>
+    </view>
+</view>
